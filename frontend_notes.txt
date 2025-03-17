@@ -38,4 +38,16 @@ step10: copy the PAT and mail it yourself(use the mail subject "git PAT")
 STEPS TO SYNC REMOTE REPO WITH LOCAL
 $ git clone https://<PAT>github.com/info-krranjan/pfile_fe_mar25
 
+STEPS TO UPDATE THE REMOTE REPO(COPY THE FILES FROM LOCAL TO REMOTE REPO)
+$ git add .
+in the above command the git will mark (will make a list of) all the files that need to be updated in the remote repo(server)(. current path).
+the above cmd marked staged
+
+$ git commit -m "relevant message"
+the above command creates an object that will have all the marked files(with security i.e encryption). 
+
+$ git push origin <branch name>
+example: git push origin main
+the above command push the file branch main
+
 ranjan
