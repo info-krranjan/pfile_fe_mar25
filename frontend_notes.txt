@@ -24,7 +24,7 @@ $ git config --global user.name "info-krranjan"
 $ git config --global user.email "info.krranjan@gmail.com"
 
 Steps to create personal access token(PAT)
-step1: on the top righgt corner click on profile icon
+step1: on the top right corner click on profile icon
 step2: after that click on settings
 step3: in the new window scroll down and click developer settings(bottom left corner)
 step4: in the new window top left click tokens and then select tokens classic
@@ -50,4 +50,28 @@ $ git push origin <branch name>
 example: git push origin main
 the above command push the file branch main
 
-ranjan
+--------------------------------------------------------------------------------------------------------------------------------
+DAY2 TUESDAY 18-03-2025
+bootstrap notes
+
+ways to enable bootstrap in our webpage
+downloading bootstrap source code and using it locally
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+step1: copy the url from above link tag and paste it in browser. Now copy the preety print souurce code. paste it in notepad++ and save the file as bootstrap.min.css inside assets folder inside learning folder.
+
+now we can link this file into our html and enable our html with bootstrap.
+
+2. Just add the bootstrap cdn(link tag) in our html inside head tag.
+However, to use bootstrap using the cdn, there must internet available.
+
+P.S: create a form
+	create 
+
+Ranjan Kumar
+
+Q:
+ES6-ecma script
+when to use .value and innerHTML learn it from document.mozilla
+
+learn proxy kali linux
